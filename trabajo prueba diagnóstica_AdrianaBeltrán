@@ -1,0 +1,44 @@
+Algoritmo sin_titulo
+		Escribir "calculadora características operativas de una prueba diagnóstica"
+		Escribir "digite los valores de a (enfermos con prueba positiva,)"
+		Leer a
+		Escribir "digite lel valor de b (sanos con prueba positiva)"
+		leer b
+		Escribir "digite el valor de  c (enfermos con prueba negativa)"
+		leer c
+		Escribir "digite el valor de d (sanos con prueba negativa"
+		leer d
+		sensibilidad<-a/(a+c)
+		Especificidad<-d/(b+d)
+		valorpredictivopositivo<-a/(a+b)
+		valorpredictivonegativo<-d/(c+d)
+		prevalencia<-(a+c)/(a+b+c+d)
+		Escribir "sensibilidad",sensibilidad
+		Escribir "Especificidad",Especificidad
+		Escribir "valor predictivo positivo",valorpredictivopositivo
+		Escribir "valor predictivo negativo",valorpredictivonegativo
+		Escribir "prevalencia",prevalencia
+		Escribir "dime un número del 1 al 4 si desea conocer la interpretación así"
+		Escribir "(1) sensibilidad"
+		Escribir "(2) especificidad"
+		Escribir "(3) valor predictivo positivo"
+		Escribir "(4) valor predictivo negativo"
+		leer n
+		Segun  n Hacer
+			1:
+				Escribir "Proporción de pacientes con la enfermedad que tienen el test positivo"
+			2:
+				Escribir "Proporción de pacientes sin la enfermedad que tienen el test negativo"
+			3:
+				Escribir "tProbabilidad de que el paciente tenga la enfermedad dado que el test es positivo"
+			4:
+				Escribir "Probabilidad de que el paciente no tenga la enfermedad dado que el test es negativo"
+			De Otro Modo:
+				Escribir "un nùmero del uno al cuatro, por favor !"
+		Fin Segun
+ 
+	
+ 
+ 
+FinAlgoritmo
+ 
